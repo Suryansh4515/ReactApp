@@ -27,22 +27,22 @@ export default function Page9 (){
             <img className='absolute pl-[266px] pt-[55px]' src={FacebookIcon} alt=""/>
             <img className='absolute pl-[306px] pt-[55px]' src={TwitterIcon} alt=""/>
             <div className='pl-9 pt-[121px] text-sm space-y-3' style={{fontFamily: "DM Sans"}}>
-            <a className='flex gap-x-2'>
+            <a className='flex gap-x-2' href='\'>
                     Products
                     <img className='w-[20px]' src={ArrowIcon} alt=""/>
                 </a> 
 
-                <a className='flex gap-x-2'>
+                <a className='flex gap-x-2' href='\'>
                     Our Science
                     <img className='w-[20px]' src={ArrowIcon} alt=""/>
                 </a> 
 
-                <a className='flex gap-x-2'>
+                <a className='flex gap-x-2' href='\'>
                     Vision & Mission
                     <img className='w-[20px]' src={ArrowIcon} alt=""/>
                 </a> 
 
-                <a className='flex gap-x-2'>
+                <a className='flex gap-x-2' href='\'>
                     About Us
                     <img className='w-[20px]' src={ArrowIcon} alt=""/>
                 </a>

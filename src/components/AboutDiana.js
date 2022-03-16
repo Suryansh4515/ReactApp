@@ -58,13 +58,7 @@ export default function AboutDiana () {
         fontSize:'16px',
         lineHeight: '179%',
     }
-    const sheet9={
-        fontFamily: 'DM sans, sans-serif',
-        fontWeight: '400',
-        width: '309px',
-        fontSize:'16px',
-        lineHeight: '28.64px',
-    }
+    
 
     return (
         <div className='justify-center content-center items-center' style={styleSheet}>
