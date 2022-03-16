@@ -20,7 +20,7 @@ export default function Difference (){
     }
     const s3={
         fontFamily: 'Poppins, sans-serif',
-        fontWeight: '400',
+        fontWeight: '300',
         fontSize: '14px', 
         width: '308px',
         lineHeight: '180%',

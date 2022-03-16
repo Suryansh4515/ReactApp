@@ -4,6 +4,8 @@ import NavBar from './components/NavBar';
 import AboutDiana from './components/AboutDiana'
 import NotificationBar from './components/NotificationBar';
 import Difference from './components/Difference';
+import Liberate from './components/Liberate';
+import Track from './components/Track'
 function App() {
   return (
     <div className="App">
@@ -11,6 +13,8 @@ function App() {
       <NavBar />
       <AboutDiana />
       <Difference/>
+      <Liberate/>
+      <Track/>
     </div>
   );
 }
