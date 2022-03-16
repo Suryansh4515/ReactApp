@@ -5,7 +5,12 @@ import AboutDiana from './components/AboutDiana'
 import NotificationBar from './components/NotificationBar';
 import Difference from './components/Difference';
 import Liberate from './components/Liberate';
-import Track from './components/Track'
+import Track from './components/Track';
+import Period from './components/Period';
+import Consult from './components/Consult'
+import Page7 from './components/Page7'
+import Page8 from './components/Page8'
+import Page9 from './components/Page9'
 function App() {
   return (
     <div className="App">
@@ -15,6 +20,12 @@ function App() {
       <Difference/>
       <Liberate/>
       <Track/>
+      <Period/>
+      <Consult/>
+      <Page7/>
+      <Page8/>
+      <Page9/>
+      
     </div>
   );
 }

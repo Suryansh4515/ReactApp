@@ -9,14 +9,16 @@ import pic4 from '../media/icons/Picture4.svg'
 
 export default function Track (){
     const StyleSheet={
-        width: '375px',
+        width: '100%',
         height: '770px',
         top: '3472px',
+        background: 'linear-gradient(180deg, #FFF6FB 0%, #FFFFFF 100%)',
+
     }
     const s1={
         fontFamily: 'Reptile, sans-serif',
         fontSize: '32px',
-        lineHeight: '43.14px',
+        lineHeight: '28.91px',
     }
     const s2={
         fontFamily: 'Poppins, sans-serif',
