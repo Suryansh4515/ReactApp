@@ -35,9 +35,7 @@ export default function Liberate (){
         fontSize: '22px',
         lineHeight: '33px',
     }
-    const s5={
-        backgroundImage: 'NoNasties',
-    }
+    
     return (
         <div >
             <div style={styleSheet} className="pl-8 text-left justify-center content-center items-center" >
@@ -47,7 +45,7 @@ export default function Liberate (){
                 <div style={s3}>Gentle formulations thoughtfully engineered by specialist researchers and doctors to simplify your self-care and get results fast. And, we always list our ingredients - so what you see is what you get.</div>
             </div>
             <div  className="pt-20 h-[562px]" style={{backgroundImage: `url(${NoNasties})`}} >
-                <img className='pl-6' src={Button} />
+                <img className='pl-6' src={Button} alt=""/>
                 <div style={s4} className='mt-6 pl-6'>#NoNasties, we promise!</div>
             
             </div>

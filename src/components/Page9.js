@@ -24,30 +24,30 @@ export default function Page9 (){
     }
     return(
         <div style={StyleSheet} className='text-white text-left'>
-            <img className='absolute pl-[266px] pt-[55px]' src={FacebookIcon}/>
-            <img className='absolute pl-[306px] pt-[55px]' src={TwitterIcon}/>
+            <img className='absolute pl-[266px] pt-[55px]' src={FacebookIcon} alt=""/>
+            <img className='absolute pl-[306px] pt-[55px]' src={TwitterIcon} alt=""/>
             <div className='pl-9 pt-[121px] text-sm space-y-3' style={{fontFamily: "DM Sans"}}>
             <a className='flex gap-x-2'>
                     Products
-                    <img className='w-[20px]' src={ArrowIcon}/>
+                    <img className='w-[20px]' src={ArrowIcon} alt=""/>
                 </a> 
 
                 <a className='flex gap-x-2'>
                     Our Science
-                    <img className='w-[20px]' src={ArrowIcon}/>
+                    <img className='w-[20px]' src={ArrowIcon} alt=""/>
                 </a> 
 
                 <a className='flex gap-x-2'>
                     Vision & Mission
-                    <img className='w-[20px]' src={ArrowIcon}/>
+                    <img className='w-[20px]' src={ArrowIcon} alt=""/>
                 </a> 
 
                 <a className='flex gap-x-2'>
                     About Us
-                    <img className='w-[20px]' src={ArrowIcon}/>
+                    <img className='w-[20px]' src={ArrowIcon} alt=""/>
                 </a>
             </div>
-            <img className='mt-8 m-auto' src={Line}/>
+            <img className='mt-8 m-auto' src={Line} alt=""/>
 
             <div className='pl-9'>
                 <div className='mt-4' style={s1}>
@@ -60,7 +60,7 @@ export default function Page9 (){
                         Enter your email...
                         </div>
                     </div>
-                    <img className='m-auto' src={Activate}/>
+                    <img className='m-auto' src={Activate} alt=""/>
                 </div>
             </div>
 

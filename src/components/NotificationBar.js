@@ -16,9 +16,9 @@ export default function NotificationBar () {
         <div className="flex justify-between bg-white p-3">
             <p className='pl-5 font-bold' style={timeStyle}>9:41</p>
             <div className='flex gap-x-1'>
-                <img src={NetworkIcon} className='h-3'/>
-                <img src={WifiIcon} className='h-3'/>
-                <img src={BatteryIcon} className='h-3'/>
+                <img src={NetworkIcon} className='h-3' alt=""/>
+                <img src={WifiIcon} className='h-3' alt=""/>
+                <img src={BatteryIcon} className='h-3' alt=""/>
             </div>
         </div>
     );

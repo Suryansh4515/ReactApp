@@ -27,9 +27,9 @@ export default function Consult (){
             <div className='text-left pl-8 pt-12'>
                 <div style={s1}>Consult with wellness experts</div>
                 <div style={s2} className='pl-1 pt-6'>Set up health consultations with experienced doctors and therapists on our app. Simply select a service, answer a few questions, and we’ll connect you to someone who is the right-fit for you. </div>
-                <img className=' pt-6 pr-6' src={button} />
+                <img className=' pt-6 pr-6' src={button} alt=""/>
             </div>
-            <img className=' pt-11' src={image} />
+            <img className=' pt-11' src={image} alt=""/>
         </div>
     );
 }

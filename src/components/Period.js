@@ -25,9 +25,9 @@ export default function Period (){
             <div className='pl-8 pt-10'>
                 <div style={s1}>Track your period</div>
                 <div style={s2} className='pl-1 pt-4'>Stay in the know with reliable AI-based and science-backed period, ovulation, and PMS predictions. The intuitive design makes tracking your cycle effortless and helps you stay on top of your monthly data. </div>
-                <img className=' pt-4 pr-6' src={button} />
+                <img className=' pt-4 pr-6' src={button} alt=""/>
             </div>
-            <img className=' pt-5' src={image} />
+            <img className=' pt-5' src={image} alt=""/>
         </div>
     );
 }

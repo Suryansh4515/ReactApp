@@ -32,13 +32,13 @@ export default function Track (){
             <div className='pl-8'>
                 <div style={s1} className='pt-9'>Track your mood</div>
                 <div style={s2} className='pt-6'>All days and all moods are not made equal. But we can only improve what we measure. Track your mood and vitals (including skin and hair health) so you can take better care of yourself every day.</div>
-                <img className=' pt-4 pr-6' src={Button1} />
+                <img className=' pt-4 pr-6' src={Button1} alt=""/>
                 </div>
             <div className='ml-4  mt-7 grid grid-cols-2 gap-x-3 gap-y-7'>
-                <img className='col-span-1' src={pic1}/>
-                <img className='col-span-1' src={pic2}/>
-                <img className='col-span-1' src={pic3}/>
-                <img className='col-span-1' src={pic4}/>
+                <img className='col-span-1' src={pic1} alt=""/>
+                <img className='col-span-1' src={pic2} alt=""/>
+                <img className='col-span-1' src={pic3} alt=""/>
+                <img className='col-span-1' src={pic4} alt=""/>
             </div>
         </div>
     );
