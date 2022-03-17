@@ -15,3 +15,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'Reptile';
+    src: url('media/Fonts/ReptileMedium.eot'); /* IE9 Compat Modes */
+    src: url('media/Fonts/ReptileMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('media/Fonts/ReptileMedium.woff2') format('woff2'), /* Super Modern Browsers */
+        url('media/Fonts/ReptileMedium.woff') format('woff'), /* Pretty Modern Browsers */
+        url('media/Fonts/ReptileMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('media/Fonts/ReptileMedium.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 500;
+    font-style: normal;
+}

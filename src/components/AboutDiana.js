@@ -40,7 +40,7 @@ export default function AboutDiana () {
     }
     const sheet6 ={
         width: '303px',
-        
+        fontFamily: 'Reptile',
         fontSize: '33px',
         lineHeight: '134%',
     }
